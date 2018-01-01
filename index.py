@@ -19,8 +19,7 @@ def handler(event, context):
     send_message_to_slack(messages=msg)
                  
                         
-def send_message_to_slack(url="",
-                          messages=None):
+def send_message_to_slack(url="<Replace Slack incomming url", messages=None):
     '''
     Send message to slack
 
